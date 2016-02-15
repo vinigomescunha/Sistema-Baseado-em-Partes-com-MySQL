@@ -1,0 +1,6 @@
+
+var ajaxurl = "ajax/client";
+var fields = {"id":{label:"ID", tdClass:"numeric"}, nome:{label: "Nome Completo", classe:'required', type:'input'}, email:{label: "Email", classe:'email', type:'input'}, endereco:{label: "Endereco", type:'input'},complemento:{label: "Complemento", type:'input'}, bairro:{label: "Bairro", type:'input'}, cep:{label: "CEP", type:'input'}, telefone_fixo:{label: "Telefone Fixo", type:'input'}, telefone_celular:{label: "Telefone Celular", type:'input'}, responsavel:{label: "Responsável", type:'input'}, pai:{label: "Nome do Pai", type:'input'}, telefone_pai:{label: "Telefone do Pai", type:'input'}, email_pai:{label: "Email do Pai", type:'input', type:'input'}, mae:{label: "Nome da Mãe", type:'input'}, telefone_mae:{label: "Telefone da Mãe", type:'input'}, email_mae:{label: "Email da Mãe", type:'input'}, observacao:{label: "Observação", type:'textarea',help_text:"Insira alguma observação sobre o aluno"}};
+var labels = ["id", "nome", "email", "endereco","observacao"];//os campos que aparecerão na tabela
+var searched = {"nome":{placeholder:"Digite o Nome ...", value:""}, "email":{placeholder:"Digite o Email ...", value:""}, "endereco":{placeholder:"Digite o Endereço ...", value:""}};
+loadData();//chama os dados da tabela
