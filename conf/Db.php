@@ -1,6 +1,6 @@
 ;<?php return; ?>
 [SQL]
 host = localhost
-user = root
-password = @123
-dbname = planilha_financeira
+user = Your_user
+password = Your_password
+dbname = Your_database
